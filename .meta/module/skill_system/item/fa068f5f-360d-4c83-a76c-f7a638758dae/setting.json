@@ -1,0 +1,19 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "aim3"
+    },
+    "damage": 20,
+    "hurtDistance": 0,
+    "name": {
+      "value": "skill_system_fa068f5f-360d-4c83-a76c-f7a638758dae"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bde7fb1a89a1ce2e37753e05a5e32cbf",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

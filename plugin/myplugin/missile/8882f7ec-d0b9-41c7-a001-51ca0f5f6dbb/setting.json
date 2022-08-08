@@ -1,0 +1,47 @@
+{
+  "autoRotateColliderBox": true,
+  "collideBlock": 4,
+  "collideEntity": 6,
+  "collider": {
+    "height": 1.5,
+    "offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "radius": 0.5,
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "type": "Capsule"
+  },
+  "followTarget": true,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0.0,
+  "hitEntitySkill": "myplugin/51fe5e93-7989-4842-9203-c1a70e81cfb4",
+  "hitEntitysRoles": [
+    "hitAllTeam",
+    "hitAllEntitys",
+    "hitAllConfigEntity"
+  ],
+  "hitInterval": 2,
+  "isPitch": true,
+  "lifeTime": 2,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "moveAcc": 0.0,
+  "moveSpeed": 2.0,
+  "rotateFree": true,
+  "rotateSpeed": 0.0,
+  "startWithMoveAcc": true,
+  "vanishShow": false,
+  "vanishTime": 10
+}

@@ -1,0 +1,101 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "actorGirlName": "asset/Actor/charactor/charactor_girl/character_girl.actor",
+  "actorName": "asset/Actor/Blue Pajamas Pumpkin Head Kid/g2052_baby_01.actor",
+  "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 5,
+  "canClick": true,
+  "canHurtMove": true,
+  "canJump": true,
+  "canMove": true,
+  "canPickOnDie": false,
+  "canTurnHead": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 7,
+  "chaseInterval": 10,
+  "checkPartTouchEvent": true,
+  "clickDistance": 4,
+  "collider": {
+    "extent": {
+      "x": 0.6,
+      "y": 1.8,
+      "z": 0.6
+    },
+    "offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "type": "Box"
+  },
+  "collision": false,
+  "damage": 0,
+  "deathHideTime": 20,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": true,
+  "enableMeshNavigate": false,
+  "equipTrays": [],
+  "eyeHeight": 1.62,
+  "followEntityDistanceWhenHasTarget": 10,
+  "followEntityDistanceWhenNotTarget": 5,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 0,
+  "hideName": false,
+  "homeSize": 10,
+  "hpBarColor": 4294967551.0,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hurtResistantTime": 0,
+  "isAIGoHomePos": true,
+  "isPlayer": false,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 100,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.2,
+  "name": "entity_e9052273-d9dd-44f4-be37-af3295abfbb8",
+  "needCheckTouch": true,
+  "nextChaseInterval": 2,
+  "randomPlayDeadActions": [
+    ""
+  ],
+  "reachDistance": 6.5,
+  "setFollowWhenCreate": true,
+  "skillInfoList": [
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 4,
+      "fullName": "myplugin/7ac35ab6-3912-4a00-a453-c43a2dd29ad3",
+      "priority": 0
+    }
+  ],
+  "skillInfos": [
+    "myplugin/7ac35ab6-3912-4a00-a453-c43a2dd29ad3"
+  ],
+  "stepHeight": 0.6,
+  "swimSpeed": 0.2,
+  "textHeight": 2.3,
+  "unassailable": 0,
+  "undamageable": 0,
+  "waterline": 0
+}

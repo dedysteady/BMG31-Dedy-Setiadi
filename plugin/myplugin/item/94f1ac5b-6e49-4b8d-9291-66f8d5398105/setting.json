@@ -1,0 +1,18 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/Block/birch_back02_birch_wood_slab.png",
+  "itemname": "item_94f1ac5b-6e49-4b8d-9291-66f8d5398105",
+  "needSave": false,
+  "skill": [],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

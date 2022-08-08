@@ -1,0 +1,3 @@
+BLOCK_IN {
+	Test(Message = GameOver())
+}

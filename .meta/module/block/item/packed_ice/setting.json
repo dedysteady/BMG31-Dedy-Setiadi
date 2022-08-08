@@ -1,0 +1,49 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_packed_ice"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/ice.png",
+        "selector": "asset/Texture/Block/ice.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "35e3468ea5bdbef10ba26eb545b797df",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

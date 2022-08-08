@@ -1,0 +1,106 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "canClick": true,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_double_plant_sunflower_front"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Test",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "action": "ccc0cd29-6c23-426f-9c1d-a107e9b4c59f"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "72b932d1-d121-49f0-be6d-e2e0078ec6af"
+              },
+              "pos": {
+                "x": 722,
+                "y": 395
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "ccc0cd29-6c23-426f-9c1d-a107e9b4c59f"
+              },
+              "pos": {
+                "x": 1137,
+                "y": 450
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "d74960eb-4718-4804-92ae-4df923686be6"
+            },
+            "type": "Trigger_BlockIn"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "72b932d1-d121-49f0-be6d-e2e0078ec6af"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "c6f08583-fff6-415c-84f6-2b1e868bf87b"
+            }
+          },
+          "type": "Trigger_BlockIn"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "54759e83a0b265b87efbe7b5d112888b",
+      "triggers.bts": "b7b31faa7cfb147ba9533ec3cf737907"
+    },
+    "VERSION": "0.22"
+  }
+}

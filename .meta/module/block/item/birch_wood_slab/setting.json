@@ -1,0 +1,128 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "canBreak": false,
+    "canClick": true,
+    "clickChangeBlock": "myplugin/acacia_wood_slab",
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_birch_wood_slab"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "recycle": true,
+    "recycleTime": {
+      "value": 100
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f9f98b08-1310-4adf-8516-1b870a40c444"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9119da2e-c043-41ed-8ea5-2f3a93d6ef89"
+              },
+              "pos": {
+                "x": 832,
+                "y": 362
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "f9f98b08-1310-4adf-8516-1b870a40c444"
+              },
+              "pos": {
+                "x": 1278,
+                "y": 345
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c9d14577-7654-436a-91e3-30742fb2f7c7"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "9119da2e-c043-41ed-8ea5-2f3a93d6ef89"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "48622d17-0985-4590-935b-a9eeba47d38c"
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a9b499ec3c1e80b7905273368090b811",
+      "triggers.bts": "20c614949f0693ba2ce425e1be5e58ca"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "data": {
+    "md5": "30f482accd54fe66986282e37f27bc53",
+    "path": "asset/Win.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "BackgroundColours": {
+            "b": 16
+          },
+          "BackgroundEnabled": true,
+          "Font_size": 30,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "5713fda8-6a83-4b5f-8f0a-1d5eef10c483"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 474.32214355469
+            },
+            "UDim_Y": {
+              "Offect": 140.9174287319
+            }
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 85.064254522341
+            }
+          },
+          "Text": "WIN",
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "726a9b37-0add-4752-b5ae-da0e99896a9b"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "30f482accd54fe66986282e37f27bc53",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

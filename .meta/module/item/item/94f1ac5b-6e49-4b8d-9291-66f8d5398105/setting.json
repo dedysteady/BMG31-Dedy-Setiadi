@@ -1,0 +1,106 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "icon": {
+      "asset": "asset/Texture/Block/birch_back02_birch_wood_slab.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_94f1ac5b-6e49-4b8d-9291-66f8d5398105"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5908563e-ea0a-4df4-bbea-3aee2ce27c62"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "83091113-7419-4f0e-86cc-e8983ce9df79"
+              },
+              "pos": {
+                "x": 734,
+                "y": 329
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5908563e-ea0a-4df4-bbea-3aee2ce27c62"
+              },
+              "pos": {
+                "x": 1203,
+                "y": 486
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "17ded5f6-0d9f-4f5a-8d36-eff4290ccab5"
+            },
+            "type": "Trigger_Hand"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "83091113-7419-4f0e-86cc-e8983ce9df79"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "402e873d-9cd0-4542-aecc-54dcb1006d95"
+            }
+          },
+          "type": "Trigger_Hand"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c252c77fb0a7875ed5d9850da34ec536",
+      "triggers.bts": "204747a14356f735c2f4a2d9f443e297"
+    },
+    "VERSION": "0.22"
+  }
+}

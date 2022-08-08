@@ -1,0 +1,79 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "y": 1,
+        "z": 2.0
+      }
+    },
+    "needSave": true,
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "300dabcc-3eba-49c0-bc9b-260148d92d04"
+            },
+            "type": "Trigger_GameGo"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "a274f2dc-d45c-4b57-9026-c7c445842b5e"
+            }
+          },
+          "type": "Trigger_GameGo"
+        }
+      ]
+    },
+    "unlimitedPlayTime": true,
+    "waitGoTime": {
+      "value": 60
+    },
+    "waitPlayerTime": {
+      "value": 60
+    },
+    "waitStartTime": {
+      "value": 60
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "801f500fa59a42556291e5aea8a1cd3b",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "528fc7ab434d3cffce26dd0f212a3549",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

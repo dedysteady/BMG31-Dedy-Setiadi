@@ -1,0 +1,7 @@
+ENTITY_ENTER {
+	ReviveEntity(entity = $obj1, pos = { x = 0, y = 2, z = -41 })
+}
+
+ENTITY_CLICK {
+	Damage(damage = 20, entity = $obj1, from = $obj2)
+}

@@ -1,0 +1,7 @@
+BLOCK_TOUCH {
+	Damage(damage = 10, entity = $obj1)
+}
+
+BLOCK_ON {
+	ReviveEntity(entity = $obj1, pos = { x = 0, y = 1, z = 2.0 })
+}

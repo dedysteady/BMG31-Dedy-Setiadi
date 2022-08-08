@@ -1,0 +1,21 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_304c4909-16c7-42da-916a-16ac0f43b066"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardBlock"
+        },
+        "type": "Block"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b6c84f01f1311c91e665776b296abcdd"
+    },
+    "VERSION": "0.22"
+  }
+}

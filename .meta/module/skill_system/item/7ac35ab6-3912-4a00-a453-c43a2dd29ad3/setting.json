@@ -1,0 +1,24 @@
+{
+  "data": {
+    "attackBound": {
+      "type": "Capsule"
+    },
+    "attackBoundSkillSystemCfg": {
+      "type": "Capsule"
+    },
+    "cdTime": {
+      "value": 40
+    },
+    "damage": 10,
+    "name": {
+      "value": "skill_system_7ac35ab6-3912-4a00-a453-c43a2dd29ad3"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4008850e987067c1f1135c9a0882f8a3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

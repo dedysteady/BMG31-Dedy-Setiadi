@@ -1,0 +1,231 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Pajamas Pumpkin Head Kid/g2052_baby_01.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 7,
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/7ac35ab6-3912-4a00-a453-c43a2dd29ad3"
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "AI_patrol": {
+      "idle": {
+        "idleTime": {
+          "max": {
+            "value": 20
+          }
+        },
+        "prob": {
+          "value": 0.05
+        }
+      },
+      "patrolDistance": 2
+    },
+    "canClick": true,
+    "enableAI": true,
+    "hideHp": false,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_e9052273-d9dd-44f4-be37-af3295abfbb8"
+    },
+    "skill": [
+      "myplugin/7ac35ab6-3912-4a00-a453-c43a2dd29ad3"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ReviveEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "27915344-8106-4476-b480-fd753645e66b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "y": 2,
+                            "z": -41
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bb4a2bad-34cb-40b3-aa6f-4e706756909f"
+              },
+              "pos": {
+                "x": 782,
+                "y": 371
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "27915344-8106-4476-b480-fd753645e66b"
+              },
+              "pos": {
+                "x": 1420,
+                "y": 454
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "d50533da-c77e-445d-8b0d-e85112e6c03d"
+            },
+            "type": "Trigger_EntityEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "bb4a2bad-34cb-40b3-aa6f-4e706756909f"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "58f54a56-8c04-4e6d-b567-a8ab3ea8ed76"
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "7d49c8e6-ed70-4df4-9153-176d55e265a9"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 20
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b9c0894a-7f88-4e92-a408-30697f4a5365"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "130a5a50-b8ee-4327-80f0-858054d932b7"
+              },
+              "pos": {
+                "x": 852,
+                "y": 347
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "7d49c8e6-ed70-4df4-9153-176d55e265a9"
+              },
+              "pos": {
+                "x": 1278,
+                "y": 248
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "b9c0894a-7f88-4e92-a408-30697f4a5365"
+              },
+              "pos": {
+                "x": 1284,
+                "y": 524
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "019213d4-3250-41d4-8abc-74fc3a0449ff"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "130a5a50-b8ee-4327-80f0-858054d932b7"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "03251457-b6f0-4818-9633-b63331feea1b"
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9ea38fef10c75c8910d92a8e69861f0d",
+      "triggers.bts": "46cd50de1223f68f80559608ebf2a35c"
+    },
+    "VERSION": "0.22"
+  }
+}

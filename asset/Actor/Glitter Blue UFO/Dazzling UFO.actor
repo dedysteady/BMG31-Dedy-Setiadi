@@ -1,0 +1,43 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2020_trolley_07.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2020_trolley_07.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Effect>
+					<scale value="1.5"/>
+					<roll value="0"/>
+					<SocketName value="s_guadian005"/>
+					<Position_Y value="-0.515132"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0.0651524"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/88_foot.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.7"/>
+					<roll value="180"/>
+					<SocketName value="s_guadian005"/>
+					<Position_Y value="0.29232"/>
+					<yaw value="180"/>
+					<Position_Z value="0"/>
+					<pitch value="2.23118e-05"/>
+					<Position_X value="0.0869861"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/88_foot.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 9.01035e-43 7.20161e+22 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2020_trolley_07.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2020_trolley_07.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_trolley_07.anim" Channel="" TimeScale="1" Length="0.833" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,86 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0.55,
+          "z": 0.55
+        },
+        "min": {
+          "x": 0.45,
+          "z": 0.45
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_glass_pane_top"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "369f5bb7-e8c7-4271-810d-a6f19f9ce7a7"
+              },
+              "pos": {
+                "x": 649,
+                "y": 292
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "60c4c9ef-212b-49c5-87e8-599c2fc5f5a0"
+            },
+            "type": "Trigger_BlockClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "369f5bb7-e8c7-4271-810d-a6f19f9ce7a7"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "598939b9-b096-4293-b153-066c838a0c9b"
+            }
+          },
+          "type": "Trigger_BlockClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "22c144b246c6734b965e9b43cb8a9100",
+      "triggers.bts": "6a0764676cc7eb7a7fc7c204c3772f9c"
+    },
+    "VERSION": "0.22"
+  }
+}

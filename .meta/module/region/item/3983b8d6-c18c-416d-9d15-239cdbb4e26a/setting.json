@@ -1,0 +1,187 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "e23d4b19-b3cc-4125-aa3d-4af93e69549a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 5
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "db0be9cf-e1e3-45ed-b5f8-9249fdb4aeec"
+              },
+              "pos": {
+                "x": 764,
+                "y": 280
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "e23d4b19-b3cc-4125-aa3d-4af93e69549a"
+              },
+              "pos": {
+                "x": 1197,
+                "y": 292
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "198c38d1-af23-41b3-9eb9-93fcf4b47137"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "db0be9cf-e1e3-45ed-b5f8-9249fdb4aeec"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "1bdb5bde-2e51-4983-9c4e-2c77e07f1274"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "93dac65c-c610-439d-adfb-36b42717b5bf"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "y": 1
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4b23e12f-488a-46e8-b673-9dccfd124399"
+              },
+              "pos": {
+                "x": 819,
+                "y": 409
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "93dac65c-c610-439d-adfb-36b42717b5bf"
+              },
+              "pos": {
+                "x": 1454,
+                "y": 505
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f030f20a-09d0-4cb5-9750-a735a096957d"
+            },
+            "type": "Trigger_RegionLeave"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "4b23e12f-488a-46e8-b673-9dccfd124399"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "cbfbcb61-7d8c-4b2e-b761-9628aba626bc"
+            }
+          },
+          "type": "Trigger_RegionLeave"
+        }
+      ]
+    },
+    "view": {
+      "enable": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "042042a665dc24dace1f7be473a95999",
+      "triggers.bts": "b68849a4fa35e0a2683565fb327acbef"
+    },
+    "VERSION": "0.22"
+  }
+}

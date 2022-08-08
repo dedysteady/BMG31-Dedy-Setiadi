@@ -1,0 +1,83 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/3983b8d6-c18c-416d-9d15-239cdbb4e26a",
+        "id": "8747392594664407041",
+        "position": {
+          "x": 0.83000010251999,
+          "y": -0.68814200162888,
+          "z": -38.920009613037
+        },
+        "scale": {
+          "x": 18.2202,
+          "y": 0.100983,
+          "z": 99.1702
+        },
+        "size": {
+          "x": 18.220235824585,
+          "y": 0.10098305344582,
+          "z": 99.170265197754
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/e9052273-d9dd-44f4-be37-af3295abfbb8",
+        "id": "8747514322532024321",
+        "name": "Enemy",
+        "position": {
+          "x": 0.42299997806549,
+          "y": 2.0000011920929,
+          "z": -43.189002990723
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/94f1ac5b-6e49-4b8d-9291-66f8d5398105",
+        "id": "8748083280332668929",
+        "position": {
+          "x": -1.5151860713959,
+          "y": 2.5000047683716,
+          "z": -20.579679489136
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "d39f065c7ed6c55ba77f85c88287f657"
+    },
+    "VERSION": "0.22"
+  }
+}

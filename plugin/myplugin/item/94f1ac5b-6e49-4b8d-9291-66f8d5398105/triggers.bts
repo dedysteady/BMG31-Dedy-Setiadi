@@ -1,0 +1,3 @@
+HAND_ITEM_CHANGED_HAND {
+	Damage(damage = 10, from = $obj1)
+}
